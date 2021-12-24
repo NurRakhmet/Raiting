@@ -1,0 +1,103 @@
+textarea {
+    font-weight: 100;
+    font-size: 16px;
+    border-radius: 8px;
+    resize: none;
+    width: 210px;
+    height: 200px;
+    border-color: darkgrey;
+    padding-left: 20px;
+    color: darkgrey;
+    font-family:'system-ui';
+
+     
+}
+.title {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 900; 
+    font-size: large; 
+    color: grey;
+    
+    margin: 0px 10px;
+}
+
+.nam {
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    border-color: darkgrey; 
+}
+
+.head {
+    margin: 20px 0px;
+}
+
+
+.but {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ec654f;
+  border: none;
+  border-radius: 5px;
+  margin: -8px 15px;
+}
+
+input:required {
+    
+}
+
+ul {
+    width: 315px;
+    margin: -40px 70px;
+    padding: 20px;
+    list-style: none;
+    
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    content: "1";
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}

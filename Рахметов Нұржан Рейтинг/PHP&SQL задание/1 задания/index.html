@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Форма комментариев</h2>
+<form action="app/nur.php" method="post" id="forma_reg">
+
+    <p>Имя: <input name="name" type="text"></p>
+    <p>E-mail: <input name="surname" type="text"></p>
+    <p>Сайт: <input name="email" type="text"></p>
+    <p>Комментарий:<textarea name="message" cols="30" rows="5"></textarea></p>
+
+    <p>Ваш пол: <input type="radio" name="favoritecolor" value="r" /> Мужчина
+        <input type="radio" name="favoritecolor" value="g" /> Женщина
+        <input type="radio" name="favoritecolor" value="b" /> Еще не понял/а
+    </p>
+    <p><input type='submit' value='Отправить'></p>
+    <?php
+
+    ?>
+</form>
+</body>
+</html>
